@@ -9,11 +9,11 @@ import {
   Text,
 } from 'native-base';
 
-import Header from './app/components/Header.js';
-import Mid from './app/components/Mid.js';
-import Body from './app/components/Body.js';
+import Header from './app/galery/Header.js';
+import Mid from './app/galery/Mid.js';
+import Body from './app/galery/Body.js';
 
-export default class App extends React.Component {
+export default class Galery extends Component {
   render() {
     return(
       <ScrollView style={styles.container}>

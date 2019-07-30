@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {
-	StyleSheet,
+  StyleSheet,
   ScrollView,
   Image,
   Dimensions,
@@ -21,7 +21,7 @@ export default class Body extends Component {
 
 					<TouchableOpacity style={styles.smallview}>
 						<Image 
-							source={require('../img/img1.jpg')}
+							source={require('../img/img8.jpg')}
 							style={styles.myimage}
 							/>
 					</TouchableOpacity>
